@@ -60,7 +60,7 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
                 onClick={(e) => handleScrollTo(e, link.href)}
-                className="relative group text-sm font-medium tracking-wide text-cream/70 hover:text-cream transition-colors duration-300"
+                className="relative group text-sm font-medium tracking-wide text-cream/90 hover:text-cream transition-colors duration-300"
               >
                 {link.name}
                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-clay transition-all duration-300 group-hover:w-full" />
@@ -111,7 +111,7 @@ export default function Navbar() {
                   key={link.name}
                   href={link.href}
                   onClick={(e) => handleScrollTo(e, link.href)}
-                  className="text-lg font-semibold tracking-wide text-cream/80 hover:text-clay transition-colors duration-200"
+                  className="text-lg font-semibold tracking-wide text-cream/90 hover:text-clay transition-colors duration-200"
                 >
                   {link.name}
                 </motion.a>
