@@ -140,7 +140,7 @@ export default function Footer() {
         </div>
 
         {/* Small Tagline, Copyright, and Meta detail info */}
-        <div className="pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-cream/30 font-mono text-[10px] tracking-widest">
+        <div className="pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-cream/60 font-mono text-xs tracking-widest">
           <span>ORTEX STUDIO © {new Date().getFullYear()} // ALL RIGHTS RESERVED</span>
           <span>HANDCRAFTED IN THE WORKSPACE</span>
           <span>SYSTEM STATE: STABLE // v1.1.2</span>

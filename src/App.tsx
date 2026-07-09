@@ -19,23 +19,25 @@ export default function App() {
       {/* Premium Sticky Navigation */}
       <Navbar />
 
-      {/* Hero Visual Segment */}
-      <Hero />
+      <main id="main-content">
+        {/* Hero Visual Segment */}
+        <Hero />
 
-      {/* Warm Contrast About Section */}
-      <About />
+        {/* Warm Contrast About Section */}
+        <About />
 
-      {/* Asymmetric Services Bento Grid */}
-      <Services />
+        {/* Asymmetric Services Bento Grid */}
+        <Services />
 
-      {/* Brand Identity / Value Pillars with Diagonal Offsets */}
-      <WhyOrtex />
+        {/* Brand Identity / Value Pillars with Diagonal Offsets */}
+        <WhyOrtex />
 
-      {/* Engineering Workflow / Timeline Nodes */}
-      <Process />
+        {/* Engineering Workflow / Timeline Nodes */}
+        <Process />
 
-      {/* State-Driven Project Inquiry Builder */}
-      <ContactForm />
+        {/* State-Driven Project Inquiry Builder */}
+        <ContactForm />
+      </main>
 
       {/* Responsive Studio Footer */}
       <Footer />

@@ -144,7 +144,7 @@ export default function Services() {
                 </div>
 
                 <div className="mt-8 pt-4 border-t border-cream/5 flex justify-end">
-                  <div className="inline-flex items-center gap-2 text-xs font-mono text-cream/40 group-hover:text-clay-light tracking-widest uppercase transition-colors duration-200">
+                  <div className="inline-flex items-center gap-2 text-xs font-mono text-cream/60 group-hover:text-clay-light tracking-widest uppercase transition-colors duration-200">
                     LEARN CAPABILITIES <ArrowUpRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </div>
                 </div>
