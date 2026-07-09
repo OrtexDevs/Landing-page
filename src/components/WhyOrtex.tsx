@@ -59,7 +59,7 @@ export default function WhyOrtex() {
                   
                   {/* Stylized code snippet element showing premium brand identity */}
                   <div className="font-mono text-[11px] text-clay bg-charcoal-light p-4 rounded-lg border border-cream/5 space-y-1">
-                     <p className="text-cream/40">// Ortex Studio Config</p>
+                     <p className="text-cream/70">// Ortex Studio Config</p>
                      <p><span className="text-amber-accent">const</span> studio = &#123;</p>
                      <p className="pl-4">engineers: <span className="text-cream">"Hands-On Only"</span>,</p>
                      <p className="pl-4">shortcuts: <span className="text-cream">false</span>,</p>

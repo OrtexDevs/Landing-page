@@ -140,7 +140,7 @@ export default function ContactForm() {
                               className={`px-4 py-2 text-xs font-semibold tracking-wide rounded-sm border transition-all duration-300 cursor-pointer ${
                                 isSelected
                                   ? "bg-clay border-clay text-cream shadow-lg shadow-clay/15"
-                                  : "bg-charcoal border-cream/10 text-cream/60 hover:border-clay/50 hover:text-cream"
+                                  : "bg-charcoal border-cream/10 text-cream/80 hover:border-clay/50 hover:text-cream"
                               }`}
                             >
                               {service}
@@ -241,7 +241,7 @@ export default function ContactForm() {
                     <h3 className="font-display font-extrabold text-3xl uppercase tracking-wide text-cream mb-2">
                       Inquiry Dispatched Successfully
                     </h3>
-                    <p className="text-cream/60 max-w-md text-sm font-light leading-relaxed mb-8">
+                    <p className="text-cream/80 max-w-md text-sm font-light leading-relaxed mb-8">
                       Thank you, <strong className="text-cream">{name}</strong>! Your inquiry has been sent directly to <strong className="text-clay">ortexdevs@gmail.com</strong>. A full-stack engineer will reach out to you within 24 hours.
                     </p>
                     <button

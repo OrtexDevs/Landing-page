@@ -58,7 +58,7 @@ export default function Process() {
             How We Take You From <br />
             <span className="text-clay">Concept to Production</span>
           </h2>
-          <p className="mt-4 font-sans text-cream/60 text-sm md:text-base font-light">
+          <p className="mt-4 font-sans text-cream/75 text-sm md:text-base font-light">
             We operate with complete clarity. Our process guarantees you know exactly what is being built, when it will ship, and how it is secured.
           </p>
         </div>
@@ -123,7 +123,7 @@ export default function Process() {
                       </h4>
 
                       {/* Paragraph copy */}
-                      <p className="text-cream/60 text-sm font-light leading-relaxed">
+                      <p className="text-cream/75 text-sm font-light leading-relaxed">
                         {item.desc}
                       </p>
 

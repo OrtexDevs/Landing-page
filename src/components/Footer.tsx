@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="md:col-span-5 flex flex-col gap-6 justify-between">
             <div className="flex flex-col gap-4">
               <Logo size="md" textColor="text-cream" lightColor="text-amber-accent" />
-              <p className="font-sans text-cream/50 text-sm font-light leading-relaxed max-w-sm">
+              <p className="font-sans text-cream/70 text-sm font-light leading-relaxed max-w-sm">
                 Ortex Studio (OrtexDevs) is a premier full-stack software development agency and consultancy executing beautiful web architectures, custom software platforms, and continuous engineering support.
               </p>
               <a
