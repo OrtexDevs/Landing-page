@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Primary Landing Page -->
+  <url>
+    <loc>https://landing-page-ortex1.vercel.app/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- About Section Indexing -->
+  <url>
+    <loc>https://landing-page-ortex1.vercel.app/#about</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Services & Capabilities Section -->
+  <url>
+    <loc>https://landing-page-ortex1.vercel.app/#services</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Why Ortex / Guarantee Pillar Section -->
+  <url>
+    <loc>https://landing-page-ortex1.vercel.app/#why-us</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Engineering Workflow Process Section -->
+  <url>
+    <loc>https://landing-page-ortex1.vercel.app/#process</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Direct Inquiry Contact Section -->
+  <url>
+    <loc>https://landing-page-ortex1.vercel.app/#contact</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

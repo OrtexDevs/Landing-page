@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
+  <!-- Background Badge -->
+  <rect width="64" height="64" rx="16" fill="#121110" />
+  <rect width="60" height="60" x="2" y="2" rx="14" fill="none" stroke="#9C6B4E" stroke-width="1.5" stroke-opacity="0.4" />
+  
+  <!-- Subtle Ambient Glow -->
+  <circle cx="32" cy="28" r="16" fill="#E5A93B" fill-opacity="0.25" filter="blur(4px)" />
+
+  <!-- Minimalist Lightbulb Mark matching Ortex Logo -->
+  <g transform="translate(12, 8) scale(1.65)" stroke="#E5A93B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Bulb shape -->
+    <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .6 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+    <!-- Screw base -->
+    <line x1="9" y1="18" x2="15" y2="18" stroke="#9C6B4E" />
+    <line x1="10" y1="21" x2="14" y2="21" stroke="#9C6B4E" />
+    <!-- Light rays -->
+    <line x1="12" y1="2" x2="12" y2="3" />
+    <line x1="12" y1="11" x2="12" y2="15" stroke="#F9F6F0" stroke-opacity="0.7" />
+    <line x1="5" y1="5" x2="6" y2="6" />
+    <line x1="19" y1="5" x2="18" y2="6" />
+  </g>
+</svg>

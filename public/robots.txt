@@ -1,0 +1,9 @@
+# Ortex Studio Robots Directive
+# https://landing-page-ortex1.vercel.app/
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap Location
+Sitemap: https://landing-page-ortex1.vercel.app/sitemap.xml

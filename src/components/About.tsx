@@ -29,10 +29,10 @@ export default function About() {
         {/* Right Side: The narrative and detailed value blocks */}
         <div className="lg:col-span-7 flex flex-col justify-between">
           <p className="text-xl md:text-2xl font-light text-charcoal/80 leading-relaxed mb-12">
-            Ortex is a small team of full-stack developers who care about doing things right. 
-            We're new to the industry, but <strong className="font-semibold text-charcoal">not new to building</strong> — from AI-powered tools 
-            to full-scale web platforms, we've shipped real projects and we bring that same energy 
-            to every client. No bloated teams, no corporate delays — just developers who show up and deliver.
+            Founded by <strong className="font-semibold text-charcoal">Chethan HR, Harsha, and Rajath</strong>, Ortex Studio (<strong className="font-semibold text-charcoal">OrtexDevs</strong>) is a high-craft <strong className="font-semibold text-charcoal">software development agency and consultancy</strong> that cares about doing things right. 
+            We're new to the industry, but <strong className="font-semibold text-charcoal">not new to building</strong> — from custom software development and AI-powered tools 
+            to full-scale web platforms, we've shipped real engineering projects and we bring that same precision 
+            to every client. No corporate bloat, no middlemen — just developers who show up and deliver.
           </p>
 
           {/* Quick value indicators */}
