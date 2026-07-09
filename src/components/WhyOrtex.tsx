@@ -42,9 +42,9 @@ export default function WhyOrtex() {
           
           {/* Left Column (40%): Slanted / Diagonal Offset Visual Pane */}
           <div className="lg:col-span-5 relative">
-            <div className="sticky top-28">
+            <div className="sticky top-28 isolate">
               {/* Aesthetic floating offset container */}
-              <div className="relative p-1 bg-charcoal rounded-2xl transform lg:-rotate-2 hover:rotate-0 transition-transform duration-500 shadow-2xl border border-cream/10">
+              <div className="relative z-10 p-1 bg-charcoal rounded-2xl transform lg:-rotate-2 hover:rotate-0 transition-transform duration-500 shadow-2xl border border-cream/10">
                 <div className="bg-charcoal text-cream rounded-xl p-8 md:p-10 bg-grain">
                   <span className="font-mono text-xs text-clay font-bold tracking-[0.2em] uppercase mb-4 block">
                     // STUDIO IDENTITY
@@ -59,18 +59,18 @@ export default function WhyOrtex() {
                   
                   {/* Stylized code snippet element showing premium brand identity */}
                   <div className="font-mono text-[11px] text-clay bg-charcoal-light p-4 rounded-lg border border-cream/5 space-y-1">
-                    <p className="text-cream/40">// Ortex Studio Config</p>
-                    <p><span className="text-amber-accent">const</span> studio = &#123;</p>
-                    <p className="pl-4">engineers: <span className="text-cream">"Hands-On Only"</span>,</p>
-                    <p className="pl-4">shortcuts: <span className="text-cream">false</span>,</p>
-                    <p className="pl-4">warranty: <span className="text-cream">"Continuous Support"</span></p>
-                    <p>&#125;;</p>
+                     <p className="text-cream/40">// Ortex Studio Config</p>
+                     <p><span className="text-amber-accent">const</span> studio = &#123;</p>
+                     <p className="pl-4">engineers: <span className="text-cream">"Hands-On Only"</span>,</p>
+                     <p className="pl-4">shortcuts: <span className="text-cream">false</span>,</p>
+                     <p className="pl-4">warranty: <span className="text-cream">"Continuous Support"</span></p>
+                     <p>&#125;;</p>
                   </div>
                 </div>
               </div>
 
               {/* Decorative background shadow offset layer */}
-              <div className="absolute inset-0 bg-clay rounded-2xl transform lg:rotate-3 -z-10 opacity-80" />
+              <div className="absolute inset-0 bg-clay rounded-2xl transform lg:rotate-3 z-0 opacity-80" />
             </div>
           </div>
 

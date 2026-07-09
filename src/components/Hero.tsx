@@ -16,6 +16,77 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen bg-charcoal pt-32 pb-20 md:py-0 flex items-center justify-center overflow-hidden bg-grain"
     >
+      {/* High-Craft Animated Background & Isometric Grid */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#e4ded508_1px,transparent_1px),linear-gradient(to_bottom,#e4ded508_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_40%,#000_70%,transparent_100%)] pointer-events-none z-0" />
+      
+      {/* Drifting Ambient Glowing Spheres */}
+      <motion.div
+        animate={{
+          scale: [1, 1.25, 1],
+          opacity: [0.1, 0.2, 0.1],
+          x: [0, 50, -30, 0],
+          y: [0, -40, 30, 0],
+        }}
+        transition={{
+          duration: 14,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+        className="absolute top-1/4 left-6 md:left-1/4 w-[420px] h-[420px] rounded-full bg-clay/20 blur-[120px] pointer-events-none z-0"
+      />
+      <motion.div
+        animate={{
+          scale: [1, 1.35, 1],
+          opacity: [0.06, 0.16, 0.06],
+          x: [0, -60, 40, 0],
+          y: [0, 50, -30, 0],
+        }}
+        transition={{
+          duration: 18,
+          repeat: Infinity,
+          ease: "easeInOut",
+          delay: 2,
+        }}
+        className="absolute bottom-1/3 right-6 md:right-1/4 w-[480px] h-[480px] rounded-full bg-amber-accent/15 blur-[140px] pointer-events-none z-0"
+      />
+      <motion.div
+        animate={{
+          scale: [1.1, 0.9, 1.1],
+          opacity: [0.05, 0.12, 0.05],
+          x: [0, 40, -40, 0],
+        }}
+        transition={{
+          duration: 20,
+          repeat: Infinity,
+          ease: "easeInOut",
+          delay: 4,
+        }}
+        className="absolute top-1/2 right-1/3 w-[550px] h-[550px] rounded-full bg-cream/10 blur-[160px] pointer-events-none z-0"
+      />
+
+      {/* Floating Technical Crosshairs */}
+      <motion.div
+        animate={{ rotate: 360, opacity: [0.15, 0.45, 0.15] }}
+        transition={{ duration: 24, repeat: Infinity, ease: "linear" }}
+        className="absolute top-28 left-[12%] text-cream/30 font-mono text-xl select-none pointer-events-none z-0 hidden md:block"
+      >
+        +
+      </motion.div>
+      <motion.div
+        animate={{ rotate: -360, opacity: [0.15, 0.35, 0.15] }}
+        transition={{ duration: 28, repeat: Infinity, ease: "linear" }}
+        className="absolute top-1/3 right-[15%] text-clay/40 font-mono text-2xl select-none pointer-events-none z-0 hidden md:block"
+      >
+        +
+      </motion.div>
+      <motion.div
+        animate={{ rotate: 360, opacity: [0.15, 0.5, 0.15] }}
+        transition={{ duration: 22, repeat: Infinity, ease: "linear" }}
+        className="absolute bottom-1/4 left-[20%] text-amber-accent/30 font-mono text-xl select-none pointer-events-none z-0 hidden md:block"
+      >
+        +
+      </motion.div>
+
       {/* Editorial Grid */}
       <div className="w-full max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center relative z-10">
         
@@ -111,10 +182,32 @@ export default function Hero() {
         <div className="lg:col-span-5 h-[400px] lg:h-[550px] w-full relative flex items-center justify-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9, rotate: 2 }}
-            animate={{ opacity: 1, scale: 1, rotate: -1 }}
-            transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+              rotate: [-1, 0.5, -1],
+              y: [0, -10, 0],
+            }}
+            transition={{
+              opacity: { duration: 1, delay: 0.2, ease: "easeOut" },
+              scale: { duration: 1, delay: 0.2, ease: "easeOut" },
+              rotate: { duration: 8, repeat: Infinity, ease: "easeInOut", delay: 1.2 },
+              y: { duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1.2 },
+            }}
             className="relative w-full h-full bg-clay rounded-2xl p-8 flex flex-col justify-between shadow-2xl overflow-hidden bg-grain select-none group border border-clay-light/30"
           >
+            {/* Animated Sheen / Light Sweep */}
+            <motion.div
+              animate={{ x: ["-100%", "200%"] }}
+              transition={{
+                duration: 4.5,
+                repeat: Infinity,
+                repeatDelay: 5,
+                ease: "easeInOut",
+              }}
+              className="absolute top-0 bottom-0 left-0 w-1/2 bg-gradient-to-r from-transparent via-cream/15 to-transparent skew-x-12 pointer-events-none z-0"
+            />
+
             {/* Design accents */}
             <div className="absolute top-0 right-0 w-48 h-48 bg-cream/10 rounded-full blur-2xl -mr-16 -mt-16 pointer-events-none" />
             
