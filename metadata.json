@@ -1,0 +1,6 @@
+{
+  "name": "Ortex Studio",
+  "description": "Ortex is a high-craft software development studio creating custom web applications, full-stack platforms, and reliable ongoing support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

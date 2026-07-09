@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Big Shoulders Display", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-clay: #9C6B4E;
+  --color-clay-dark: #815337;
+  --color-clay-light: #B48061;
+  --color-cream: #F9F6F0;
+  --color-cream-dark: #EFECE5;
+  --color-charcoal: #121110;
+  --color-charcoal-light: #1E1C1A;
+  --color-amber-accent: #E5A93B;
+}
+
+@utility bg-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+@utility scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-charcoal);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-clay);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-clay-light);
+}
+
+/* Base style refinements */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-charcoal);
+  color: var(--color-cream);
+  overflow-x: hidden;
+}
+
